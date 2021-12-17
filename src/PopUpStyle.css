@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+.outerDiv:hover {
+    cursor: pointer;
+}
+
+input{
+    width:350px;
+    height: 35px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.PopUp {
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 50vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.inner-popup {
+    position: relative;
+    padding: 10px;
+    padding-right: 10px;
+    width:100%;
+    max-width: 640px;
+    background-color: white;
+    border:.5px solid whitesmoke;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    cursor: pointer;
+}
